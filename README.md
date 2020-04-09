@@ -15,6 +15,5 @@
 ### [docker](https://hub.docker.com/r/zeusro/hexo)
 
 ```bash
-    docker run -p 4000:4000 zeusro/hexo:latest  \
-    --env PUBLIC_HEXO_GITHUB_URL=https://github.com/zeusro/docker-hexo.git
+    docker run --name hexo -p 4000:4000 zeusro/hexo:latest --env PUBLIC_HEXO_GITHUB_URL=https://github.com/yz1311/docker-hexo.git
 ```
